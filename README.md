@@ -40,7 +40,6 @@ To work with Cyclistic's data, I had to apply previous knowledge I acquired duri
 This project utilized RStudio as the primary environment for data analysis and visualization. While initial data exploration and loading was conducted using spreadsheet software, RStudio provided the necessary tools for efficient data cleaning, transformation, and statistical analysis, allowing for robust and reproducible results.
 
 1. Data Setup and Combining
-Scripts [here](data_setup_and_combining.R)(data_setup_and_combining.R)
 The initial step involved consolidating the 12 individual monthly datasets into a single, unified dataframe. This process was crucial for ensuring a comprehensive and consistent analysis across the entire observation period. The resulting dataframe, aptly named bike_rides_df, served as the foundation for all subsequent data analysis and exploration.
 
 3. Data Exploration
