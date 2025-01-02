@@ -30,14 +30,14 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
  3. How can Cyclistic use digital media to in uence casual riders to become members?
 
 ## Prepare Phase
-I chose to work with recent data, starting from December,2023 to November,2024. This data was made available sectioned by months.
-
-The first step on my journey to analyze this case was to download all the files necessary. There are a total of 12 files, downloaded in a CSV(Comma separated Values) format, using a specific company naming convention that made easier to organize these files.
-
 ### Dataset
 I had used Cyclistic’s historical trip data to analyze and identify trends. You can download the previous 12 months of Cyclistic trip data [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
 (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate and will enable you to answer the business questions. The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).)
 This is public data that you can use to explore how different customer types are using Cyclistic bikes. However, note that data-privacy issues prohibit you from using riders' personally identifiable information. This means that you won't be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+I chose to work with recent data, starting from December,2023 to November,2024. This data was made available sectioned by months.
+
+The first step on my journey to analyze this case was to download all the files necessary. There are a total of 12 files, downloaded in a CSV(Comma separated Values) format, using a specific company naming convention that made easier to organize these files.
 
 ## Process Phase
 To work with Cyclistic's data, I had to apply previous knowledge I acquired during the Google Data Analytics Professional Certificate. Excel and RStudio.
