@@ -59,3 +59,40 @@ A thorough exploratory data analysis (EDA) was conducted to gain a deeper unders
 Building upon the insights gained during the exploratory phase, a comprehensive data cleaning process was implemented. This involved addressing identified issues such as null values and duplicate records. Specifically, rows containing null values in critical geographic coordinates (end_lat and end_lng) were removed to ensure data accuracy. Additionally, columns exhibiting a high frequency of blank values were removed to maintain data integrity and reliability. These steps culminated in a clean and refined dataset, ready for in-depth analysis and the development of valuable insights.
 
 This framework provides a clear and concise overview of the key stages involved in preparing the data for analysis. You can then customize these paragraphs with specific details about your data and the cleaning steps you performed.
+
+## Analyze & Share
+ Code Script [here](https://github.com/prajwal-longia/Cyclistic-Case-Study/blob/main/Data_Analysis.R)
+ Images [here](https://github.com/prajwal-longia/Cyclistic-Case-Study/tree/main/Analysis%20Folder)
+
+After cleaning the dataset and getting it ready for analysis, I went into the next step where I used R studio to do the analysis and visualization of the data and getting it ready for sharing.
+1) Daily Ride Patterns 
+
+.Ride frequency peaks on Sunday, with Saturday being the second most popular day.
+.Average ride duration is highest on weekends (Saturday and Sunday) , with the lowest duration on Wednesday.
+
+2) Trip Duration Distribution
+
+.The mean trip duration (16.63 minutes) being considerably higher than the median (10.13 minutes) indicates a right-skewed distribution.
+.The median suggests that most rides are around 10 minutes or shorter, with longer rides pulling the average upwards.
+
+3) Member vs. Casual Rider Behavior 
+
+.Members take more rides overall, but their average ride duration is significantly shorter (almost half) compared to casual riders. This indicates distinct usage patterns: members likely use the service for shorter, more frequent trips, while casual riders use it for longer durations.
+
+4) Bike Preference by User Group
+
+.Both members and casual riders prefer classic bikes. However, casual riders have longer average ride durations on all bike types (classic, electric, and scooters) compared to members.
+
+5. Key Observations:
+  [folder](https://github.com/prajwal-longia/Cyclistic-Case-Study/tree/main/Visualization%20Folder)
+
+* Annual members are the backbone of Cyclistic's ridership, accounting for a substantial 64% of the ueser group, while casual riders contribute the remaining 36%.
+* Annual membership and casual ridership exhibit strong seasons, peaking in the warmer months (June and September). Although both groups exhibit increased ridership during these months, annual members exhibit more consistent ridership throughout the year than casual riders, who they exhibit more pronounced seasonal variation.
+* Casual riders consistently exhibit longer average ride durations across all days of the week compared to annual members.This observation suggests that casual riders tend to utilize the bike-sharing service for longer trips or different purposes compared to annual members.
+* Both casual riders and annual members exhibit distinct peak usage hours. Casual riders demonstrate higher usage during the evening hours, while annual members show a more pronounced peak during the morning and evening commute times.
+* Among casual riders, one starting point stands out as a clear favorite: "Streeter Dr & Grand Ave." This station sees significantly higher usage than any other, suggesting it's a prime hub for recreational cyclists and a key area to focus on for resource management and potential expansion.
+
+## Act Phase
+Converting Casual Riders to Members: Based on observed peak usage at key locations like Streeter Dr & Grand Ave (weekdays 4-6 PM, weekends 1-4 PM), we will implement a targeted conversion strategy. This will involve: (1) On-site promotions during peak hours offering trial memberships and demonstrating the cost benefits of membership for regular riders; (2) On-bike messaging (QR codes) linking to mobile-friendly signup pages with exclusive online offers; (3) Digital outreach via the app and email, using personalized messaging based on rider behavior; and (4) Feedback collection through surveys and in-person interactions to continuously improve our conversion efforts. These combined efforts aim to provide a seamless and compelling pathway for casual riders to become valued members.
+
+The analysis revealed clear distinctions between casual riders and members. Casual riders primarily use bikes for leisure during weekends and afternoons, while members use bikes for commuting during weekdays. These insights highlight the need for targeted marketing strategies that appeal to casual riders' motivations and usage patterns.
