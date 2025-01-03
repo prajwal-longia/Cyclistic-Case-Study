@@ -44,15 +44,16 @@ To work with Cyclistic's data, I had to apply previous knowledge I acquired duri
 This project utilized RStudio as the primary environment for data analysis and visualization. While initial data exploration and loading was conducted using spreadsheet software, RStudio provided the necessary tools for efficient data cleaning, transformation, and statistical analysis, allowing for robust and reproducible results.
 
 1. Data Setup and Combining
+[here]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/prajwal-longia/Cyclistic-Case-Study/blob/main/Data_Setup_and%20_Combining.R))
 
 The initial step involved consolidating the 12 individual monthly datasets into a single, unified dataframe. This process was crucial for ensuring a comprehensive and consistent analysis across the entire observation period. The resulting dataframe, aptly named bike_rides_df, served as the foundation for all subsequent data analysis and exploration.
 
-2. Data Exploration
-
+3. Data Exploration
+[here]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/prajwal-longia/Cyclistic-Case-Study/blob/main/Data_Exploration.R))
 A thorough exploratory data analysis (EDA) was conducted to gain a deeper understanding of the dataset's characteristics. This involved examining the data types of each column, identifying and addressing null values, and detecting and removing duplicate records. Furthermore, the presence of blank values across various columns was investigated, and appropriate measures were taken to handle these instances, ensuring data integrity and reliability for subsequent analysis.
 
 3. Data Cleaning
-
+[here]([https://github.com/user/repo/blob/branch/other_file.md](https://github.com/prajwal-longia/Cyclistic-Case-Study/blob/main/Data_Cleaning.R))
 Building upon the insights gained during the exploratory phase, a comprehensive data cleaning process was implemented. This involved addressing identified issues such as null values and duplicate records. Specifically, rows containing null values in critical geographic coordinates (end_lat and end_lng) were removed to ensure data accuracy. Additionally, columns exhibiting a high frequency of blank values were removed to maintain data integrity and reliability. These steps culminated in a clean and refined dataset, ready for in-depth analysis and the development of valuable insights.
 
 This framework provides a clear and concise overview of the key stages involved in preparing the data for analysis. You can then customize these paragraphs with specific details about your data and the cleaning steps you performed.
