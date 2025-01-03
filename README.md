@@ -40,7 +40,7 @@ I chose to work with recent data, starting from December,2023 to November,2024. 
 The first step on my journey to analyze this case was to download all the files necessary. There are a total of 12 files, downloaded in a CSV(Comma separated Values) format, using a specific company naming convention that made easier to organize these files.
 
 ## Process Phase
-To work with Cyclistic's data, I had to apply previous knowledge I acquired during the Google Data Analytics Professional Certificate. Excel and RStudio.
+To work with Cyclistic's data, I had to apply previous knowledge I acquired during the Google Data Analytics Professional Certificate. Google Sheets and RStudio.
 This project utilized RStudio as the primary environment for data analysis and visualization. While initial data exploration and loading was conducted using spreadsheet software, RStudio provided the necessary tools for efficient data cleaning, transformation, and statistical analysis, allowing for robust and reproducible results.
 
 1. Data Setup and Combining
