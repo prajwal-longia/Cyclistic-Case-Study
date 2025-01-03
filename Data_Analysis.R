@@ -127,7 +127,7 @@ bike_rides_df %>%
         legend.title = element_text(size = 12, face = "bold"))
 
 
-#type of bike used by user group
+#type of bike used by user group on the day
 bike_rides_df %>% 
   ggplot(aes(x = rideable_type, fill = day_of_week))+
   geom_bar() +
